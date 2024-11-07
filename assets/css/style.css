@@ -8,6 +8,41 @@
   --transition: 0.4s ease-in-out;
 }
 
+.btncolor1 {
+  /* margin-bottom:10px; */
+  padding-bottom: 0px;
+  box-sizing: border-box;
+
+}
+
+/* Ensure the container has no extra space above or below */
+.as_service_box .d-md-flex {
+  align-items: center;  /* Vertically align items */
+  margin-top: 0; /* Remove margin */
+  margin-bottom: 0; /* Remove margin */
+}
+
+.as_service_box .btn {
+  margin: 0; /* Reset margin for buttons */
+}
+
+
+.btncolor {
+  background-color: #f59207; 
+  color: white;
+  border-radius: 8px 8px;
+  /* margin-top: 0%; */
+  border: 1px solid rgb(253, 138, 6); /* Optional: Adds a border to make the button more defined */
+  padding: 5px 10px; /* Optional: Adjust the padding for better button size */
+  cursor: pointer; /* Optional: Change the cursor to a pointer on hover */
+}
+
+.btncolor:hover {
+  background-color: white;  /* Changes the background color to yellow on hover */
+  color: black; /* Keeps the text color black on hover (optional, if you want to keep the text color unchanged) */
+}
+
+
 :after,
 :before {
   transition: var(--transition);
@@ -992,7 +1027,7 @@ a:visited {
 }
 .as_service_box {
   background-color: #ffffff;
-  padding: 59px 22px 25px;
+  padding: 30px 24px 26px;
   margin-top: 30px;
   box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 4%);
   border: 1px solid rgb(231, 231, 231);
@@ -1083,8 +1118,35 @@ a:visited {
 .as_service_box:hover .as_link svg {
   fill: #ffffff;
 }
+@media (max-width: 996px) {
+ 
+
+  .as_banner_detail
+  {
+    height: auto; /* Adjust this if there's a fixed height */
+    
+    }
+
+
+}
+
+
+.slide-buttons {
+  text-align: center;
+}
+
+/* On smaller screens (less than 738px width), move buttons up */
+@media (max-width: 738px) {
+  .slide-buttons {
+      text-align: center; /* Center buttons by default */
+      margin-bottom: 15%;
+  }
+}
 /* service css end */
 /* why choose css start */
+.as_blog_box{
+  padding-top: 1%;
+}
 .as_whychoose_wrapper {
   background-image: url("https://i.postimg.cc/8cXmCH4h/why-choose-us.png");
   background-repeat: no-repeat;
@@ -2391,9 +2453,9 @@ section.as_pricing_plan .row {
 .as_comment_section > ul > li .as_comnt_img img {
   border-radius: 10px;
 }
-/* .as_comment_section >ul>li>.as_comnt_detail{
-    padding-right: 100px;
-} */
+.as_comnt_detail{
+  margin-left: 20px;
+}
 .as_comment_section > ul > li .as_comnt_detail {
   width: calc(100% - 200px);
   position: relative;
@@ -3472,12 +3534,15 @@ form.d_block {
   }
   .as_blog_box ul li img {
     margin-right: 5px;
+  
   }
   .as_comment_section > ul > li .as_comnt_img img {
     width: 100px;
+    margin-right: 10px;
   }
   .as_comment_section > ul > li .as_comnt_img {
     width: 120px;
+    margin-right: 10px;
   }
   .as_comment_section > ul > li .as_comnt_detail {
     width: calc(100% - 120px);
