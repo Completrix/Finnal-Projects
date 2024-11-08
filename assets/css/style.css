@@ -1030,7 +1030,7 @@ a:visited {
     transform: translateX(-50%);
     width: 207px;
     height: 651px;
-    background-image: url("/IMAGES/serviceimage.jpeg");
+    background-image: url("/IMAGES/service image.jpeg");
     background-size: 180%; /* Adjust this value for zoom level */
     background-position: 70% center; /* Adjust this for right shift */
     border-radius: 95px; /* Adjust this value for the desired corner roundness */
