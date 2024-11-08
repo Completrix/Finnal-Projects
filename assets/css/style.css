@@ -280,6 +280,18 @@ a:visited {
 .slick-dots li button {
   display: none;
 }
+
+@media (max-width: 996px) {
+ 
+
+  .as_banner_detail
+  {
+    height: auto; /* Adjust this if there's a fixed height */
+    
+    }
+
+
+}
 .slick-dots li {
   height: 9px;
   width: 9px;
@@ -1030,7 +1042,7 @@ a:visited {
     transform: translateX(-50%);
     width: 207px;
     height: 651px;
-    background-image: url("/IMAGES/Servicenew.jpeg");
+    /* background-image: url("/IMAGES/Servicenew.jpeg"); */
     background-size: 180%; /* Adjust this value for zoom level */
     background-position: 70% center; /* Adjust this for right shift */
     border-radius: 95px; /* Adjust this value for the desired corner roundness */
