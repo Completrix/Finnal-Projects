@@ -1036,17 +1036,18 @@ a:visited {
 }
 
 .as_service_img:after {
+  
     position: absolute;
-    content: "";
+    content: '';
     left: 50%;
     transform: translateX(-50%);
-    width: 207px;
+    width:207px;
     height: 651px;
-    /* background-image: url("/IMAGES/Servicenew.jpeg"); */
-    background-size: 180%; /* Adjust this value for zoom level */
-    background-position: 70% center; /* Adjust this for right shift */
-    border-radius: 95px; /* Adjust this value for the desired corner roundness */
-    bottom: -35px;
+    background-image: url('https://i.postimg.cc/523Ynh32/serv-person.png');
+    bottom: -53px;
+
+
+  
   }
 
 .as_service_single .as_service_img:after {
