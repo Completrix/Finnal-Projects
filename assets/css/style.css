@@ -15,6 +15,19 @@
 
 }
 
+@media (max-width: 958px) {
+  .as_banner_detail {
+      
+    height: auto;
+  }
+  .slick-slide{
+    height: auto;
+ 
+  }
+}
+
+
+
 /* Ensure the container has no extra space above or below */
 .as_service_box .d-md-flex {
   align-items: center;  /* Vertically align items */
