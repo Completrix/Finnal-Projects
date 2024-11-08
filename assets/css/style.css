@@ -910,6 +910,21 @@ a:visited {
   font-family: "Philosopher", sans-serif;
   margin-right: 10px;
 }
+/* --------------- */
+ /* Default icon color */
+/* Default icon color */
+.as_service_box .as_icon svg path {
+  fill: #f88526; /* Original icon color */
+}
+
+/* Change icon color to white on hover */
+.as_service_box:hover .as_icon svg path {
+  fill: #ffffff !important; /* White color on hover, with !important to override inline styles */
+}
+
+
+ 
+/* --------------------------- */
 .as_contact_expert .as_icon:before {
   position: absolute;
   left: 0;
@@ -1007,16 +1022,21 @@ a:visited {
   transform: translate(-50%, -50%);
   border-radius: 150px;
 }
-.as_service_img:after {
-  position: absolute;
-  content: "";
-  left: 50%;
-  transform: translateX(-50%);
-  width: 207px;
-  height: 651px;
-  background-image: url("https://i.postimg.cc/523Ynh32/serv-person.png");
-  bottom: -35px;
-}
+
+  .as_service_img:after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+    width: 207px;
+    height: 651px;
+    background-image: url("/IMAGES/serviceimage.jpeg");
+    background-size: 180%; /* Adjust this value for zoom level */
+    background-position: 70% center; /* Adjust this for right shift */
+    border-radius: 95px; /* Adjust this value for the desired corner roundness */
+    bottom: -35px;
+  }
+
 .as_service_single .as_service_img:after {
   display: none;
 }
